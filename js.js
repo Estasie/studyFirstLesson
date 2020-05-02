@@ -46,3 +46,47 @@ for (let i = 1; i < 8; i++) {
     console.log(i);
 }
 */
+
+// ФУНКЦИИ
+
+function showFirstMessage (text)
+{
+    alert(text);
+    let num = 20;
+} 
+showFirstMessage ("Всем хай");
+
+let num = 20;
+function showFirstMessage (text)
+{
+    alert(text);
+	console.log(num);
+} 
+showFirstMessage ("Всем хай");
+console.log (num);
+
+function calc (a,b) {
+	return (a+b);
+}
+
+let calc = (a,b) => a+b;
+console.log(calc(50,3));
+
+function retVar() {
+	let num = 50;
+	return num;
+}
+
+let anotherNum = retVar();
+
+let str = "test";
+console.log (str.length);
+
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let twelve = "12.2px";
+
+console.log(Math.round(twelve));
+
+console.log(parseFloat(twelve));
